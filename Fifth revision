@@ -1,0 +1,26 @@
+for (j = 0; j < resources; j++) 
+{
+available[j] += current[i][j];
+}
+break;
+}
+}
+}
+if (!safe) 
+{
+printf("\nThe processes are in unsafe state.\n");
+break;
+} 
+else 
+{
+printf("\nThe process is in safe state");
+printf("\nAvailable vector:");
+for (i = 0; i < resources; i++) 
+{
+printf("\t%d", available[i]);
+}
+printf("\n");
+}
+}
+return 0;
+}
